@@ -9,8 +9,7 @@ function upDate(previewPic){
     to the alt text of the preview image 
     */
   var x = document.getElementById('image');
-	x.src = previewPic.src;
-	x.alt = previewPic.alt;
+	x.style.backgroundImage = "url(previewPic.src)";
 	}
 
 	function unDo(){
