@@ -10,6 +10,7 @@ function upDate(previewPic){
     */
   var x = document.getElementById('image');
 	x.style.backgroundImage = "url(previewPic.src)";
+	x.style.text = previewPic.alt;
 	}
 
 	function unDo(){
