@@ -21,4 +21,5 @@ function upDate(previewPic){
     2) Change the text  of the div with the id = "image" 
     back to the original text.  You can use the html code to see what that original text was
     */
+		document.getElementById("image").id = "image";
 	}
